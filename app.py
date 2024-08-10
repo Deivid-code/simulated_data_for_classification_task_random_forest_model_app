@@ -1,10 +1,12 @@
 import streamlit as st
-import pickle
+import joblib
 import numpy as np
 
 # Cargar el modelo
-with open('simulated_data_for_classification_task_random_forest_model.pkl', 'rb') as file:
-    model = pickle.load(file)
+# with open('simulated_data_for_classification_task_random_forest_model.pkl', 'rb') as file:
+#     model = pickle.load(file)
+
+model = joblib.load('model.joblib')
 
 def main():
     # Configurar la aplicación
