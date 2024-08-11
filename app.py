@@ -4,7 +4,7 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 from matplotlib.colors import ListedColormap
-
+# 
 # Cargar el modelo
 # with open('simulated_data_for_classification_task_random_forest_model.pkl', 'rb') as file:
 #     model = pickle.load(file)
